@@ -30,7 +30,7 @@ const menuData = {
   'Fast Foods': [
     { name: 'Chips with chicken', price: 'MK 2,800', image: '/images/CPC.jpg' },
     { name: 'Chips with braai chicken', price: 'MK 3,000', image: '/images/CBC.jpg' },
-    { name: 'Chips plain', price: 'MK 2,500', image: '/images/pc.jpg' },
+    { name: 'Chips plain', price: 'MK 2,500', image: '/images/plain.jpg' },
     { name: 'Chips with eggs', price: 'MK 2,200', image: '/images/CG.jpg' },
   ],
   'Drinks': [
