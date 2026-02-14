@@ -11,31 +11,32 @@ import { Textarea } from '@/components/ui/textarea'
 import { UtensilsCrossed, Phone, MapPin, Clock, ShoppingCart, Check } from 'lucide-react'
 import { Fab } from '@/components/ui/fab'
 
-// Menu data
+
 const menuData = {
   'Nsima Meals': [
-    { name: 'Nsima with goat meat + vegetables', price: 'MK 3,200', image: '/images/nsima-beef.jpg' },
-    { name: 'Nsima with cow meat + vegetables', price: 'MK 3,200', image: '/images/SCM.jpg' },
-    { name: 'Nsima with chicken + vegetables', price: 'MK 3,200', image: '/images/SC.jpg' },
-    { name: 'Nsima with fish + vegetables', price: 'MK 2,000', image: '/images/SF.jpg' },
-    { name: 'Nsima with beans + vegetables', price: 'MK 2,000', image: '/images/SB.jpg' },
-    { name: 'Nsima with usipa + vegetables', price: 'MK 2,000', image: '/images/usipa.jpg' },
+    { name: 'Nsima with goat meat + vegetables', price: 'MK 4,500', image: '/images/Nsima_Beef.jpeg' },
+    { name: 'Nsima with  Beef + vegetables', price: 'MK 4,500', image: '/images/Nsima_Goat.jpeg' },
+    { name: 'Nsima with chicken + vegetables', price: 'MK 4,500', image: '/images/Nsima_Chicken.jpeg' },
+    { name: 'Nsima with beans + vegetables', price: 'MK 4,000', image: '/images/Nsima_Beans.jpeg' },
+    { name: 'Nsima only', price: 'MK 1,500', image: '/images/Nsima_Only.jpeg' },
+
   ],
   'Rice Meals': [
-    { name: 'Rice with cow or goat meat', price: 'MK 3,500', image: '/images/RB.jpg' },
-    { name: 'Rice with beans', price: 'MK 2,500', image: '/images/rice-beans.jpg' },
-    { name: 'Rice with fried chicken', price: 'MK 3,700', image: '/images/fried-rice.jpg' },
-    { name: 'Rice with boiled chicken', price: 'MK 3,700', image: '/images/RC.jpg' },
+    { name: 'Rice with Beef/goat meat', price: 'MK 4,500', image: '/images/Rice_Beef.jpeg' },
+    { name: 'Rice with beans', price: 'MK 4,000 ', image: '/images/Rice_Beans.jpeg' },
+    { name: 'Rice with chicken', price: 'MK 5000', image: '/images/Rice_Chicken.jpeg' },
+    { name: 'Rice only', price: 'MK 2,000', image: '/images/Plain_Rice.jpeg' },
+
   ],
   'Fast Foods': [
-    { name: 'Chips with chicken', price: 'MK 2,800', image: '/images/CPC.jpg' },
-    { name: 'Chips with braai chicken', price: 'MK 3,000', image: '/images/CBC.jpg' },
-    { name: 'Chips plain', price: 'MK 2,500', image: '/images/plain.jpg' },
-    { name: 'Chips with eggs', price: 'MK 2,200', image: '/images/CG.jpg' },
+    { name: 'Chips chicken', price: 'MK 5,500', image: '/images/CBC.jpg' },
+    { name: 'Chips plain', price: 'MK 3,000', image: '/images/plain.jpg' },
+    { name: 'Chips egg', price: 'MK 4,000', image: '/images/CG.jpg' },
+    { name: 'Chips with Takeaway Box', price: 'MK 3,700', image: '/images/Chips_Takeaway.jpeg' },
+    { name: 'egg only', price: 'MK 1,000', image: '/images/Eggs.jpeg' },
+
   ],
-  'Drinks': [
-    { name: 'Cold drinks', price: 'MK 800', image: '/images/soft-drinks.jpg' },
-  ],
+
 }
 
 export default function LusperNandoFoodHub() {
@@ -69,7 +70,7 @@ export default function LusperNandoFoodHub() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     
-    // Build order message
+  
     let orderMessage = `New Order from ${formData.name}%0A%0A`
     orderMessage += `Phone: ${formData.phone}%0A`
     orderMessage += `Location: ${formData.location}%0A%0A`
@@ -84,7 +85,7 @@ export default function LusperNandoFoodHub() {
     }
 
     
-    const whatsappNumber = '265999916443' 
+    const whatsappNumber = '265887860454' 
     window.open(`https://wa.me/${whatsappNumber}?text=${orderMessage}`, '_blank')
   }
 
