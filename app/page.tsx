@@ -85,7 +85,7 @@ export default function LusperNandoFoodHub() {
     }
 
     
-    const whatsappNumber = '265887860454' 
+    const whatsappNumber = '265999916443' 
     window.open(`https://wa.me/${whatsappNumber}?text=${orderMessage}`, '_blank')
   }
 
