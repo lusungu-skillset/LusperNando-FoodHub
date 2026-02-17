@@ -14,22 +14,22 @@ import { Fab } from '@/components/ui/fab'
 
 const menuData = {
   'Nsima Meals': [
-    { name: 'Nsima with goat meat + vegetables', price: 'MK 4,500', image: '/images/Nsima_Beef.jpeg' },
-    { name: 'Nsima with  Beef + vegetables', price: 'MK 4,500', image: '/images/Nsima_Goat.jpeg' },
-    { name: 'Nsima with chicken + vegetables', price: 'MK 4,500', image: '/images/Nsima_Chicken.jpeg' },
+    { name: 'Nsima with goat meat + vegetables', price: 'MK 5,000', image: '/images/Nsima_Beef.jpeg' },
+    { name: 'Nsima with  Beef + vegetables', price: 'MK 5,000', image: '/images/Nsima_Goat.jpeg' },
+    { name: 'Nsima with chicken + vegetables', price: 'MK 5,000', image: '/images/Nsima_Chicken.jpeg' },
     { name: 'Nsima with beans + vegetables', price: 'MK 4,000', image: '/images/Nsima_Beans.jpeg' },
     { name: 'Nsima only', price: 'MK 1,500', image: '/images/Nsima_Only.jpeg' },
 
   ],
   'Rice Meals': [
-    { name: 'Rice with Beef/goat meat', price: 'MK 4,500', image: '/images/Rice_Beef.jpeg' },
+    { name: 'Rice with Beef/goat meat', price: 'MK 5,000', image: '/images/Rice_Beef.jpeg' },
     { name: 'Rice with beans', price: 'MK 4,000 ', image: '/images/Rice_Beans.jpeg' },
     { name: 'Rice with chicken', price: 'MK 5000', image: '/images/Rice_Chicken.jpeg' },
     { name: 'Rice only', price: 'MK 2,000', image: '/images/Plain_Rice.jpeg' },
 
   ],
   'Fast Foods': [
-    { name: 'Chips chicken', price: 'MK 5,500', image: '/images/CBC.jpg' },
+    { name: 'Chips chicken', price: 'MK 6,000', image: '/images/CBC.jpg' },
     { name: 'Chips plain', price: 'MK 3,000', image: '/images/plain.jpg' },
     { name: 'Chips egg', price: 'MK 4,000', image: '/images/CG.jpg' },
     { name: 'Chips with Takeaway Box', price: 'MK 3,700', image: '/images/Chips_Takeaway.jpeg' },
